@@ -1,7 +1,7 @@
 {
-  "name": "@player1os/npm-package",
-  "version": "0.0.0",
-  "description": "A base project from which npm packages can be derived",
+  "name": "@player1os/validation-error",
+  "version": "1.0.0",
+  "description": "A module that exports a validation error class that can be subclassed and used by various validator libraries",
   "private": false,
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -24,18 +24,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Player1os/npm-package.git"
+    "url": "git+https://github.com/Player1os/js-validation-error.git"
   },
   "keywords": [
-    "npm",
-    "package"
+    "validation",
+    "error"
   ],
   "author": "Osama Hassanein <player1os@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Player1os/npm-package/issues"
+    "url": "https://github.com/Player1os/js-validation-error/issues"
   },
-  "homepage": "https://github.com/Player1os/npm-package#readme",
+  "homepage": "https://github.com/Player1os/js-validation-error#readme",
+  "dependencies": {
+    "@player1os/base-error": "^1.1.2"
+  },
   "devDependencies": {
     "@player1os/npm-package-support": "^1.1.9",
     "@player1os/nyc-config": "^1.0.0",
