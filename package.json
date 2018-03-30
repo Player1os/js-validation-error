@@ -1,6 +1,6 @@
 {
   "name": "@player1os/validation-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module that exports a validation error class that can be subclassed and used by various validator libraries",
   "private": false,
   "publishConfig": {
